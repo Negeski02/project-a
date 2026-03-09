@@ -1,0 +1,88 @@
+<!-- 
+Template for IMA's Creative Coding Lab 
+
+Project A: Generative Creatures
+CCLaboratories Biodiversity Atlas 
+-->
+
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title> Lines of Life </title>
+
+    <!-- allow special characters, including Arabic, Chinese, Korean, Japanese, etc. -->
+    <meta charset="UTF-8">
+    <!-- link the style sheet -->
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <!-- import p5.js library -->
+    <script src="https://cdn.jsdelivr.net/npm/p5@1.11.3/lib/p5.min.js"></script>
+    <script>
+        // prevent scrolling when spacebar and arrow keys are pressed.
+        window.addEventListener("keydown", function (e) { if ([32, 37, 38, 39, 40].indexOf(e.keyCode) > -1) { e.preventDefault(); } }, false);
+    </script>
+</head>
+
+<body>
+    <!-- title -->
+    <div id="title-wrapper">
+        <h1 class="headline black"> Lines of Life </h1>
+    </div>
+
+    <!-- main content -->
+    <div id="main-wrapper">
+        <div id="p5-canvas-container">
+            <!-- This is where your p5 sketch will be appended and appear! -->
+        </div>
+        <div class="two-columns">
+            <div class="left">
+                <h3 class="red">Scientific Name:</h3>
+                <p>Lineastasis Zoetamine                </p>
+
+                <h3 class="red">Discovered by / at:</h3>
+                <p>The creator of all human connection                </p>
+
+                <h3 class="green">Family:</h3>
+                <p>Unique</p>
+            </div>
+            <div class="right">
+                <h3 class="green">Habitat:</h3>
+                <p>The cat’s cradle where all things are connected
+
+                </p>
+
+                <h3 class="green">Appearance:</h3>
+                <p>The creature is made of shapes in most of the time only circles, rectangles and lines, that respectively represents a nucleus, arms and legs and antennae                </p>
+
+                <h3 class="green">Key Characteristics:</h3>
+                <ul>
+                    <li>The main characteristics of my creature is that its made from the the mutation of a imaginary cat’s cradle, so as far as the cat’s cradle is being moved the creature is also mutating, aiming to represent that from new interactions of the cradle the creature is fully being created, but suddenly something happens, and the creature is fully impacted by it: a disintegration.                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="one-column">
+            <p>
+                <span class="yellow">What we know so far about "LINES OF LINE" ?</span>
+                We know that “Lines of Life:” is a finding that show how exists a bigger Creator  that controls all ways of living in its cat’s cradle, and each line of it, is a way of  “Lines of Life” existence, even though when the creature is broken in pieces with a disintegration allowed by the cat’s cradle Creator, its strong nucleus make all the rest of the pieces come back together to life
+                <br>
+                <span class="yellow">Guidelines for human interaction with this creature</span> The creature is already moving as the elastics on the cradle moves, so as any involuntary moves on the cradle, the creature keeps moving independently, if you HOLD and DRAG the creature will move around the canvas, if you MOVE IT  far apart the center the creature will will disintegrate, as you CLICK on the center the creature will also change, also the elastics are going to move
+
+            </p>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <div id="footer" class="black">
+        <p>A CCLab project made by Diovanna Negeski Class 2028</p>
+    </div>
+
+    <!-- Home: Link back to the ATLAS page-->
+    <div id="home">
+        <a href="https://cclab.work/atlas">Back to the ATLAS</a>
+    </div>
+
+    <!-- Include your sketch.js file here -->
+    <script src="sketch.js" type="text/javascript"> </script>
+</body>
+
+</html>
